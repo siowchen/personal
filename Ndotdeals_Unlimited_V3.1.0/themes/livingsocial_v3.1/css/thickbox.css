@@ -1,0 +1,218 @@
+/* ----------------------------------------------------------------------------------------------------------------*/
+/* ---------->>> global settings needed for thickbox <<<-----------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------*/
+*{padding: 0; margin: 0;}
+
+/* ----------------------------------------------------------------------------------------------------------------*/
+/* ---------->>> thickbox specific link and font settings <<<------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------*/
+#TB_window {
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #333333;
+}
+
+#TB_secondLine {
+	font: 10px Arial, Helvetica, sans-serif;
+	color:#666666;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------*/
+/* ---------->>> thickbox settings <<<-----------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------*/
+#TB_overlay {
+	position: fixed;
+	z-index:100;
+	top: 0px;
+	left: 0px;
+	background-color:#000;
+	filter:alpha(opacity=75);
+	-moz-opacity: 0.75;
+	opacity: 0.75;
+	height:100%;
+	width:100%;
+}
+
+* html #TB_overlay { /* ie6 hack */
+     position: absolute;
+     height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');
+}
+
+#TB_window {
+	position: fixed;
+	background:none;
+	z-index: 1000;
+	color:#000000;
+	display:none;
+	text-align:left;
+	top:50%;
+	left:50%;
+    -moz-border-radius: 15px 15px 15px 15px;
+ 
+}
+
+* html #TB_window { /* ie6 hack */
+position: absolute;
+margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');
+}
+
+#TB_window img#TB_Image {
+	display:block;
+	margin: 15px 0 0 15px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #666;
+	border-left: 1px solid #666;
+}
+
+#TB_caption{
+	height:25px;
+	padding:7px 30px 10px 25px;
+	float:left;
+}
+
+#TB_closeWindow{
+	height:25px;
+	padding:11px 25px 10px 0;
+	float:right;
+	cursor:pointer;
+}
+
+#TB_closeAjaxWindow a{
+	text-align:left;
+	float:right;
+	width:20px;height:19px;
+	background:url(../images/close_img.png) left center no-repeat;
+}
+
+#TB_ajaxWindowTitle{
+	float:left;
+	padding:7px 0 5px 10px;
+	margin-bottom:1px;
+}
+
+#TB_title{
+	/*background-color:#e8e8e8;
+		height:27px;*/
+		width:95%;
+	
+}
+
+#TB_ajaxContent{
+	clear:both;
+	padding:10px 0px 0px 0px;
+	overflow:hidden;
+	text-align:left;
+	line-height:1.4em;
+}
+
+#TB_ajaxContent.TB_modal{
+	padding:15px;
+}
+
+#TB_ajaxContent p{
+	padding:5px 0px 5px 0px;
+}
+
+#TB_load{
+	position: fixed;
+	display:none;
+	height:13px;
+	width:208px;
+	z-index:103;
+	top: 50%;
+	left: 50%;
+	margin: -6px 0 0 -104px; /* -height/2 0 0 -width/2 */
+}
+
+* html #TB_load { /* ie6 hack */
+position: absolute;
+margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');
+}
+
+#TB_HideSelect{
+	z-index:99;
+	position:fixed;
+	top: 0;
+	left: 0;
+	background-color:#fff;
+	border:none;
+	filter:alpha(opacity=0);
+	-moz-opacity: 0;
+	opacity: 0;
+	height:100%;
+	width:100%;
+}
+
+* html #TB_HideSelect { /* ie6 hack */
+     position: absolute;
+     height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');
+}
+
+#TB_iframeContent{
+	clear:both;
+	border:none;
+	margin-bottom:-1px;
+	margin-top:1px;
+	_margin-bottom:1px;
+}
+
+
+
+.thank_you{width:265px;background:url(../images/content_bg_image.png) left center no-repeat;}
+.thanyou_form{width:260px;}
+.thank_you_content{width:250px;margin:0px;background:url(../images/thank_you_image_03.png) center 5px no-repeat}
+.thank_you_content h6{width:240px;font:normal 15px tahoma;color:#464646;}
+.thank_you_content p{width:250px;font:normal 15px/19px tahoma;color:#757575;text-align:justify;}
+.thank_you_content form{width:250px;}
+.thank_you_content form select{width:54px;height:31px;border:1px solid #C5C5C5;float:left;}
+.thank_you_content input[type=text]{width:180px;height:19px;border:1px solid #C5C5C5;font:normal 16px Arial, Helvetica, sans-serif;color:#777;}
+.submit{width:120px;height:33px;}
+.thank_you_content span{width:90px;height:33px;}
+.submit_left{width:6px;height:33px;background:url(../images/log_lft.png) no-repeat;}
+.submit_mid{width:70px;height:33px;background:url(../images/log_mid.png) repeat-x;}
+.submit_mid input[type=submit]{width:70px;height:33px;background:none;border:none;font:bold 14px/33px Arial, Helvetica, sans-serif;color:#FFFFFF;text-align:center}
+.submit_mid input[type=button]{width:70px;height:33px;background:none;border:none;font:bold 14px/33px Arial, Helvetica, sans-serif;color:#FFFFFF;text-align:center}
+.submit_right{width:6px;height:33px;background:url(../images/log_rgt.png) no-repeat;}
+
+.congrats_content_out{width:560px;}
+.congrats_content{width:510px;background:url(../images/congrats_left_middle2.png) 0 0px repeat-x;padding:0 10px;height:491px;}
+.congrats_content_bg{width:310px;background:url(../images/congrats_img.gif) left top no-repeat;padding:20px 0 0px 200px;height:220px;margin-top:30px;}
+.popup_left{width:10px;height:491px;background:url(../images/congrats_corner.png) no-repeat;}
+.popup_right{width:10px;height:491px;background:url(../images/congrats_corner.png) -11px 0 no-repeat;}
+.congrats_content_bg div.title{width:305px;height:55px;background:url(../images/congrats_text.gif) no-repeat;}
+.congrats_content_bg h5{width:305px;font:normal 15px tahoma;color:#464646;text-align:center;letter-spacing:-0.2px;}
+.congrats_content_bg h6{width:285px;font:normal 12px/20px tahoma;color:#757575;margin-left:20px;}
+.congrats_form_top{width:300px;}
+.congrats_form_top h4{font:bold 12px tahoma;color:#39362e;text-transform:uppercase;text-align:center;width:300px;}
+.select_date{width:200px;margin:5px 0 0 60px;}
+.group_inputbox{width:80px;}
+.inputbox_left{width:5px;height:28px;background:url(../images/select_date_corer.png) no-repeat;}
+.inputbox_right{width:5px;height:28px;background:url(../images/select_date_corer.png) -6px 0 no-repeat;}
+.inputbox_bg{width:64;height:28px;background:url(../images/select_date_bg.png) repeat-x;}
+.inputbox_bg select{width:68px;font:bold 18px tahoma;color:#2CBAC4;height:22px;background:none;border:none;}
+.congrats_form_bottom{width:510px;}
+.congrats_form_bottom p{font:normal 15px tahoma;color:#757575;width:520px;}
+.congrats_form_bottom p a.color03A1C7{color:#03A1C7;}
+.congrats_form_bottom p a.color00A651{color:#00A651;}
+.submit_btn_left{width:0px;height:33px;background:url(../images/submit_btn_corner.png) no-repeat;}
+.submit_btn_right{width:0px;height:33px;background:url(../images/submit_btn_corner.png) -8px 0 no-repeat}
+span.submit_btn{width:auto;height:33px;background:url(../images/submit_btn_bg.png) repeat-x;}
+span.submit_btn input[type=submit]{width:auto;font:normal 12px arial;color:#fff;text-align:center;background:none;border:none;height:33px;}
+span.submit_btn input[type=reset]{width:auto;font:normal 12px arial;color:#fff;text-align:center;background:none;border:none;height:33px;}
+
+.login_content_out{width:550px;}
+.login_popup_left{width:11px;height:287px;background:url(../images/login_corner.png) no-repeat;}
+.login_popup_right{width:11px;height:287px;background:url(../images/login_corner.png) -12px 0 no-repeat;}
+.login_content{width:500px;background:url(../images/login_middle.png) 0 0px repeat-x;padding:0 0px;height:287px;}
+.signup_content{width:500px;background:url(../images/congrats_left_middle2.png) repeat-x;padding:0 0px;height:491px;}
+.express_content{width:650px;}
+.express_top{width:647px;background:url(../images/express_corner.png) no-repeat;height:17px;border:1px solid red;}
+.express_bottom{width:647px;background:url(../images/express_corner.png) 0 -18px no-repeat;height:17px;}
+.express_content_middle{width:627px;background:url(../images/express_middle.png) repeat-y;padding:5px 10px;}
+.express_content_out{width:650px;}
+.express_content{width:560px;background:url(../images/ei_middle_bg.png) 0 0px repeat-x;padding:20px 10px 0px 20px;height:351px;}
+.express_left{width:6px;height:380px;background:url(../images/ei_corner.png) no-repeat;}
+.express_right{width:6px;height:380px;background:url(../images/ei_corner.png) -8px 0 no-repeat;}
+
+

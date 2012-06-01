@@ -1,0 +1,8 @@
+ 
+.box{float:left;clear:both;width:762px;z-index:3;position:absolute; margin:0px 0px 0px 110px;  left:13%; top:50%;}
+.box_top{float:left;clear:both;width:762px;height:12px;background:url(../images/nearbymap/box_top.png) no-repeat;}
+.box_middle{float:left;clear:both;width:762px;/*background:url(../images/nearbymap/box_middle.png) repeat-y;*/}
+.box_bottom{float:left;clear:both;width:762px;height:12px;background:url(../images/nearbymap/box_bottom.png) no-repeat;}
+
+
+ 

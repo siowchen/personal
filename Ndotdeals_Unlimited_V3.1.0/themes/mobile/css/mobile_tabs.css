@@ -1,0 +1,107 @@
+/* CSS Document */
+@CHARSET "UTF-8";
+/******* GENERAL RESET *******/
+
+.clear{
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	display: block;
+}
+/******* GENERAL RESET *******/
+/******* MENU *******/
+#menu_container{
+	float:left;
+	margin:20px 0 0 0 !important;
+	padding-bottom:20px;
+}
+#menu_container ul{
+	list-style: none;
+	float:left;
+	clear:both !important;
+	margin:0px !important;
+	padding:0px !important;
+	list-style-position: outside;
+	*margin-bottom:0px !important;
+}
+#menu_container ul.tab_menu li{
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 0px !important;
+	
+}
+#menu_container ul.tab_menu li{
+	font-weight: 700;
+	display: block;
+	padding:7px 10px;
+	margin:4px 5px 0px 0px !important;
+	background:#E6E6E6 url(../images/bg_desc_menu.png) repeat-x;
+	border: 1px solid #d0ccc9;
+	border-width: 1px 1px 0px 1px;
+	position: relative;
+	color: #898989;
+	cursor: pointer;
+}
+#menu_container ul.tab_menu li h3 a{padding-left:25px;float:left;line-height:23px;}
+
+#menu_container ul.tab_menu li a{padding-left:25px;float:left;line-height:23px;}
+#menu_container ul.tab_menu li:hover{background:url(../images/bg_desc_menu_active.png) repeat-x;
+	font-weight: 700;
+	display: block;
+	padding:7px 10px;
+	margin:4px 5px 0px 0px !important;
+	border: 1px solid #d0ccc9;
+	border-width: 1px 1px 0px 1px;
+	position: relative;
+	color: #898989;
+	z-index:99;	
+	cursor: pointer;
+	}
+#menu_container ul.tab_menu li.active{
+	background:url(../images/bg_desc_menu_active.png) repeat-x;
+	top: 1px;
+	border-bottom: 0;
+	color: #5f95ef;
+}
+/******* /MENU *******/
+
+/******* CONTENT *******/
+/*
+.content_high{
+	margin: 0px !important;
+	width:661px;
+	float:left;
+	padding:10px 0px;
+}
+*/
+/******* NEWS *******/
+.menu_content.doc h1{
+	background: transparent url(images/news.jpg) no-repeat scroll left top;
+}
+
+.menu_content p	{
+	width:880px;
+	float:left;
+	clear:both;
+}
+
+.content_high.dealdetails{
+	display: block;
+}
+
+.content_high.fineprints{
+	display: none;
+}
+
+.content_high.contactdetails{
+	display: none;
+}
+
+.content_high.reviews{
+	display: none;
+}
+
+.comparision{width:850px;float:left;clear:both;padding:5px 0px;}
+.documentation_menu{width:850px;float:left;clear:both;padding:5px 0px;margin-top:20px !important;}
+.documentation_menu li{float:left;width:800px !important;padding:5px;}
+.documentation_menu li a{color:#000 !important;background:url(/public/images/file-pdf.png) right center no-repeat;padding-right:25px;float:left;}

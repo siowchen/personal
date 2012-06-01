@@ -1,0 +1,16 @@
+    #scrollbox{
+    position: fixed;
+    width: 100%!important;
+    height: 45px;
+	display:block;
+	z-index:999;
+	left:0;bottom:0;
+	float:left;background:url(../images/sticky/scroll_mid.gif) repeat-x;
+}
+#scrollcontainer {float:left;z-index:999;position:absolute;top:68px!important;left:0;}
+.scroll_left{float:left;width:8px;height:45px;background:url(../images/sticky/scroll_left.gif) no-repeat;}
+.scroll_mid{width:970px;height:45px;margin:0 auto;margin-top:2px;}
+.scroll_right{float:left;width:8px;height:45px;background:url(../images/sticky/scroll_right.gif) no-repeat;}
+	
+    
+    

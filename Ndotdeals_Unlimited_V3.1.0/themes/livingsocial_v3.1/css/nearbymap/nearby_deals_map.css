@@ -1,0 +1,55 @@
+#mapInfoManual {
+	float: left;
+	color: #fff;
+	font: bold 11px Helvitica, Arial, sans-serif;
+	width:930px;
+	background-color:#000;
+	margin-left:10px;
+	
+	}
+#mapInfoManual a {
+	text-decoration:none;
+	margin-left:5px;
+	line-height:26px;
+	color:#fff;
+	}
+#googMap {
+  float:right;
+  width:928px;
+  height:400px;
+  border: solid thin #fff;
+  color:#000;
+	}
+#googMap a {
+	color:#0000ff;
+	}
+	
+.arrow{
+	float:left;
+	width:10px;
+	height:10px;
+	margin:4px 0px 0px 5px;
+}	
+
+.googControls {
+  float:left;
+  width:100%;
+  height:30px;
+  background-color:#000;
+  margin-bottom:2px;
+ 
+	}
+
+.googPrint {
+	float:right;
+	text-align:right;
+	}
+p.infoWindowStreetAddress {
+	color:#000; 
+	font-size:11px;
+	}
+.detail-list{width:300px; height:auto; float: left; padding:0 10px;height:75px;}
+.detail-list p{font-family:Arial, Helvetica, sans-serif; font-size:12px; color: #000000; line-height:18px;}
+.detail-list a:hover{color:#137ee1; text-decoration: underline;}
+.detail-list a{color:#137ee1; text-decoration: none; }
+.coupon-list-container{width:960px; float:left; margin:12px 0;}

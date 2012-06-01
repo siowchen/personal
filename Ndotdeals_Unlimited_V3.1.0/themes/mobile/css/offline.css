@@ -1,0 +1,39 @@
+.form_step {
+  width: 470px; }
+
+.js_enabled .step_one, .js_enabled .step_two, .js_enabled .step_three {
+  top: 170px;
+  position: absolute;
+  margin-left: -240px;
+  opacity: 0; }
+  .js_enabled .step_two{
+  width:450px; height:350px;
+  }
+.js_enabled .step_one {
+  left: 50%;
+  opacity: 1; }
+
+
+.form_selection{
+	width:440px;
+   	margin:0 auto;
+}
+.conf_top{float:left;width:416px;background:url(../images/conf_top.gif) no-repeat;height:17px;clear:both;margin-top:50px;}
+.conf_bot{float:left;width:416px;background:url(../images/conf_bot.gif) no-repeat;height:17px;clear:both;}
+.form_inner{width:386px;padding:0px 15px;
+	float:left;clear:both;
+
+   	background:url(../images/form_inner_img.gif) repeat-y;
+}
+.header_three_steps h1{font:bold 25px Tahoma;height:30px; margin-left:5px; color:#333;}
+
+
+.form_list select{width:360px;height:30px;padding:5px;border:1px solid #999999;outline:none !important;} 
+.form_list input[type=text]{width:350px;height:20px;padding:5px;border:1px solid #999999;outline:none !important;} 
+.form_selection{min-height:500px;}
+.header_left{width:100%;float:left;clear:both;}
+.js_enabled{background:url(../images/groupon_bg_img1.gif) no-repeat !important;}
+.header1{float:left;width:100%;}
+.submit_button { color:#333; padding:5px; font-weight:bold; }
+.inner_center2 p { margin-left:12px; color:#333;}
+.soon_slogan {margin-left:10px; color:#333; }

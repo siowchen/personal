@@ -1,0 +1,73 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+RewriteRule ^([^/]+)/$ /index.php?file=home&sub1=$1 [NC]
+RewriteRule ^([^/]+).html /index.php?file=$1 [NC]
+RewriteRule ^([^/]+)/([^/]+).html /index.php?file=$1&sub1=$2 [NC]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+).html /index.php?file=$1&sub1=$2&sub2=$3 [NC]
+RewriteRule ^([^/]+)/category/([^/]+).html /index.php?file=$1&sub1=category [NC]
+RewriteRule ^([^/]+)/past/([^/]+).html /index.php?file=$1&sub1=past [NC]
+
+RewriteRule ^admin/login /system/deals-admin.php?file=$1 [NC]
+RewriteRule ^admin-login /system/deals-admin.php?file=$1 [NC]
+RewriteRule ^gettimestamp /system/result.php [NC]
+RewriteRule ^admin/profile /system/deals-admin.php?file=profile [NC]
+RewriteRule ^admin/forgot /system/deals-admin.php?file=forgot [NC]
+
+RewriteRule ^admin/reg/([^/]+) /system/deals-admin.php?file=$1 [NC]
+RewriteRule ^admin/logout /site-admin/pages/logout.php [NC]
+RewriteRule ^admin/edit/([^/]+)/([^/]+) /system/deals-admin.php?file=edit [NC]
+RewriteRule ^admin/view/rep/([^/]+) /system/deals-admin.php?file=$1 [NC]
+RewriteRule ^admin/changepassword /system/deals-admin.php?file=changepassword [NC]
+RewriteRule ^admin/couponsupload /system/deals-admin.php?file=couponsupload [NC]
+RewriteRule ^coupon/code/(.*) /system/site-admin/pages/generate_coupon_id.php [NC]
+RewriteRule ^edit/coupon/(.*) /system/deals-admin.php?file=editcoupon&sub1=$1 [NC]
+RewriteRule ^add/shop/ /system/deals-admin.php?file=addshop [NC]
+RewriteRule ^edit/shop/(.*) /system/deals-admin.php?file=editshop&sub1=$1 [NC]
+RewriteRule ^admin/viewclosedcoupon/(.*) /system/deals-admin.php?file=viewclosedcoupon&sub1=$1 [NC]
+RewriteRule ^admin/sitemap /system/deals-admin.php?file=sitemap [NC]
+RewriteRule ^admin/rss /system/deals-admin.php?file=rss [NC]
+RewriteRule ^add/country/ /system/deals-admin.php?file=addcountry [NC]
+RewriteRule ^edit/country/(.*) /system/deals-admin.php?file=editcountry&sub1=$1 [NC]
+RewriteRule ^add/city/ /system/deals-admin.php?file=addcity [NC]
+RewriteRule ^edit/city/(.*) /system/deals-admin.php?file=editcity&sub1=$1 [NC]
+RewriteRule ^add/category/ /system/deals-admin.php?file=addcategory [NC]
+RewriteRule ^edit/category/(.*) /system/deals-admin.php?file=editcategory&sub1=$1 [NC]
+RewriteRule ^manage/(.*) /system/deals-admin.php?file=manage&sub1=$1 [NC]
+RewriteRule ^admin/emailall /system/deals-admin.php?file=emailall [NC]
+RewriteRule ^admin/paymentlist /system/deals-admin.php?file=paymentlist [NC]
+RewriteRule ^admin/general /system/deals-admin.php?file=general [NC]
+#RewriteRule ^admin/module /system/deals-admin.php?file=module [NC]
+RewriteRule ^admin/module/(.*) /system/deals-admin.php?file=module&sub1=$1 [NC]
+RewriteRule ^admin/discussion /system/deals-admin.php?file=discussion [NC]
+RewriteRule ^admin/newsletter /system/deals-admin.php?file=newsletter [NC]
+RewriteRule ^admin/daily_mails /system/deals-admin.php?file=daily_mails [NC]
+RewriteRule ^admin/cron /system/deals-admin.php?file=cron [NC]
+RewriteRule ^admin/daily-deals /system/deals-admin.php?file=daily-deals [NC]
+RewriteRule ^admin/sendsms /system/deals-admin.php?file=sendsms [NC]
+RewriteRule ^admin/fund-request/ /system/deals-admin.php?file=fund-request [NC]
+RewriteRule ^admin/fund-request-report /system/deals-admin.php?file=fund-request-report [NC]
+RewriteRule ^admin/manage-api /system/deals-admin.php?file=manage-api [NC]
+RewriteRule ^admin/submit-ticket /system/deals-admin.php?file=submit-ticket [NC]
+RewriteRule ^admin/transaction /system/deals-admin.php?file=transaction [NC]
+
+RewriteRule ^api/(.*) /system/modules/api/index.php?file=$1 [NC]
+RewriteRule ^api /system/modules/api/index.php [NC]
+
+RewriteRule ^admin/rep /system/deals-admin.php?file=rep [NC]
+RewriteRule ^admin/couponvalidate /system/deals-admin.php?file=report [NC]
+RewriteRule ^admin/deal_report_view/(.*) /system/deals-admin.php?file=dealreportviews&sub1=$1 [NC]
+RewriteRule ^access/mobile /system/deals-mobile.php [NC]
+RewriteRule ^admin/add-page/ /system/deals-admin.php?file=addpage [NC]
+RewriteRule ^admin/user-profile/(.*) /system/deals-admin.php?file=user_profile&sub1=$1 [NC]
+
+RewriteRule ^edit/page/(.*) /system/deals-admin.php?file=edit_page&sub1=$1 [NC]
+RewriteRule ^admin/manage-fund-request/(.*) /system/deals-admin.php?file=manage-fund-request&sub1=$1 [NC]
+
+RewriteRule ^edit/discussion/(.*) /system/deals-admin.php?file=edit_discussion&sub1=$1 [NC]
+
+ErrorDocument 403 /index.php?file=error&sub1=403
+ErrorDocument 404 /index.php?file=error&sub1=404
+ErrorDocument 500 /index.php?file=error&sub1=500
+
+RewriteRule ^system/affiliate/(.*) /system/modules/affiliate/$1 [NC]

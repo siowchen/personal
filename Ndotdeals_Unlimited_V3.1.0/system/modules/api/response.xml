@@ -1,0 +1,360 @@
+		
+
+
+
+<response><deals>
+                                                <deal>
+                                                        <id>why-do-we-use-it-it-is-a-long-established-fact-that-a-reader-will-be-distracted-by-the-readable-content-of-a-page-when-looking-at-its-layout-the-point-of-using-lorem-ipsum-is-that-it-has-a-more-or-less-normal-distribution-of-letters-as-opposed-to</id>
+                                                        <title>Why do we use it?  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to</title>
+                                                        <city>
+                                                                <name>Chennai</name>
+                                                        </city>
+
+                                                        <imgurl>http://192.168.1.20:1001/themes/green/images/no_image.jpg</imgurl>
+                                                        <sidebarImageUrl>http://192.168.1.20:1001/</sidebarImageUrl>
+                                                        <status>open</status>
+                                                        <isSoldOut>false</isSoldOut>
+                                                        <soldQuantity></soldQuantity>
+                                                        <dealUrl>http://192.168.1.20:1001/deals/why-do-we-use-it-it-is-a-long-established-fact-that-a-reader-will-be-distracted-by-the-readable-content-of-a-page-when-looking-at-its-layout-the-point-of-using-lorem-ipsum-is-that-it-has-a-more-or-less-normal-distribution-of-letters-as-opposed-to_49.html</dealUrl>
+
+                                                        <options>
+                                                                <option>
+                                                                        <id>49</id>
+                                                                        <title>Why do we use it?  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to</title>
+                                                                        <price>
+                                                                                <amount>47.5</amount>
+                                                                                <currencyCode>USD</currencyCode>
+
+                                                                                <formattedAmount>$47.5</formattedAmount>
+                                                                        </price>
+                                                                        <value>
+                                                                                <amount>50</amount>
+                                                                                <currencyCode>USD</currencyCode>
+                                                                                <formattedAmount>$50</formattedAmount>
+                                                                        </value>
+
+                                                                        <discount>
+                                                                                <amount>2.5</amount>
+                                                                                <currencyCode>USD</currencyCode>
+                                                                                <formattedAmount>$</formattedAmount>
+                                                                        </discount>
+                                                                        <discountPercent>5</discountPercent>
+                                                                        <isLimitedQuantity>true</isLimitedQuantity>
+
+                                                                        <minimumPurchaseQuantity>1</minimumPurchaseQuantity>
+                                                                        <maximumPurchaseQuantity>4</maximumPurchaseQuantity>
+                                                                        <expiresAt>2011-02-24 15:59:47</expiresAt>
+                                                                        <details>
+                                                                                <detail>
+                                                                                        <description>Why do we use it?<br />
+<br />
+
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</description>
+                                                                                </detail>
+                                                                        </details>
+                                                                        <highlights>Why do we use it?<br />
+<br />
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</highlights>
+                                                                        <fineprints>Why do we use it?<br />
+<br />
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).Why do we use it?<br />
+
+<br />
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</fineprints>
+                                                                        <redemptionLocations>
+                                                                                <redemptionLocation>
+                                                                                        <lng>15.456987</lng>
+                                                                                        <city>Chennai</city>
+                                                                                        <name>Domino&#039;s Pizza Corner</name>
+
+                                                                                        <streetAddress>T.Nagar, Chennai, Tamilnadu.</streetAddress>
+                                                                                        <lat>10.456987</lat>
+                                                                                </redemptionLocation>
+                                                                        </redemptionLocations>
+                                                                        <buyUrl>http://192.168.1.20:1001/purchase.html?cid=49</buyUrl>
+                                                                </option>
+                                                        </options>
+
+                                                        <startAt>2011-02-13 14:59:47</startAt>
+                                                        <endAt>2011-02-24 15:59:47</endAt>
+                                                </deal>
+                                                <deal>
+                                                        <id>deals-of-the-day</id>
+                                                        <title>Deals of the day!!!</title>
+                                                        <city>
+
+                                                                <name>Chennai</name>
+                                                        </city>
+                                                        <imgurl>http://192.168.1.20:1001/themes/green/images/no_image.jpg</imgurl>
+                                                        <sidebarImageUrl>http://192.168.1.20:1001/</sidebarImageUrl>
+                                                        <status>open</status>
+                                                        <isSoldOut>false</isSoldOut>
+
+                                                        <soldQuantity></soldQuantity>
+                                                        <dealUrl>http://192.168.1.20:1001/deals/deals-of-the-day_48.html</dealUrl>
+                                                        <options>
+                                                                <option>
+                                                                        <id>48</id>
+                                                                        <title>Deals of the day!!!</title>
+                                                                        <price>
+
+                                                                                <amount>47.5</amount>
+                                                                                <currencyCode>USD</currencyCode>
+                                                                                <formattedAmount>$47.5</formattedAmount>
+                                                                        </price>
+                                                                        <value>
+                                                                                <amount>50</amount>
+                                                                                <currencyCode>USD</currencyCode>
+
+                                                                                <formattedAmount>$50</formattedAmount>
+                                                                        </value>
+                                                                        <discount>
+                                                                                <amount>2.5</amount>
+                                                                                <currencyCode>USD</currencyCode>
+                                                                                <formattedAmount>$</formattedAmount>
+                                                                        </discount>
+
+                                                                        <discountPercent>5</discountPercent>
+                                                                        <isLimitedQuantity>true</isLimitedQuantity>
+                                                                        <minimumPurchaseQuantity>1</minimumPurchaseQuantity>
+                                                                        <maximumPurchaseQuantity>5</maximumPurchaseQuantity>
+                                                                        <expiresAt>2011-02-28 15:52:02</expiresAt>
+                                                                        <details>
+
+                                                                                <detail>
+                                                                                        <description>Why do we use it?<br />
+<br />
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</description>
+                                                                                </detail>
+                                                                        </details>
+                                                                        <highlights>Why do we use it?<br />
+<br />
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </highlights>
+
+                                                                        <fineprints>Why do we use it?<br />
+<br />
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </fineprints>
+                                                                        <redemptionLocations>
+                                                                                <redemptionLocation>
+                                                                                        <lng>15.456987</lng>
+                                                                                        <city>Chennai</city>
+                                                                                        <name>Domino&#039;s Pizza Corner</name>
+
+                                                                                        <streetAddress>T.Nagar, Chennai, Tamilnadu.</streetAddress>
+                                                                                        <lat>10.456987</lat>
+                                                                                </redemptionLocation>
+                                                                        </redemptionLocations>
+                                                                        <buyUrl>http://192.168.1.20:1001/purchase.html?cid=48</buyUrl>
+                                                                </option>
+                                                        </options>
+
+                                                        <startAt>2011-02-13 14:52:02</startAt>
+                                                        <endAt>2011-02-28 15:52:02</endAt>
+                                                </deal>
+                                                <deal>
+                                                        <id>best-offers-gift-to-lovers-day-at-coimbatore-hurry-up</id>
+                                                        <title>best offers gift to lovers day at coimbatore.... hurry up</title>
+                                                        <city>
+
+                                                                <name>Chennai</name>
+                                                        </city>
+                                                        <imgurl>http://192.168.1.20:1001/themes/green/images/no_image.jpg</imgurl>
+                                                        <sidebarImageUrl>http://192.168.1.20:1001/</sidebarImageUrl>
+                                                        <status>open</status>
+                                                        <isSoldOut>false</isSoldOut>
+
+                                                        <soldQuantity></soldQuantity>
+                                                        <dealUrl>http://192.168.1.20:1001/deals/best-offers-gift-to-lovers-day-at-coimbatore-hurry-up_44.html</dealUrl>
+                                                        <options>
+                                                                <option>
+                                                                        <id>44</id>
+                                                                        <title>best offers gift to lovers day at coimbatore.... hurry up</title>
+                                                                        <price>
+
+                                                                                <amount>80</amount>
+                                                                                <currencyCode>USD</currencyCode>
+                                                                                <formattedAmount>$80</formattedAmount>
+                                                                        </price>
+                                                                        <value>
+                                                                                <amount>100</amount>
+                                                                                <currencyCode>USD</currencyCode>
+
+                                                                                <formattedAmount>$100</formattedAmount>
+                                                                        </value>
+                                                                        <discount>
+                                                                                <amount>20</amount>
+                                                                                <currencyCode>USD</currencyCode>
+                                                                                <formattedAmount>$</formattedAmount>
+                                                                        </discount>
+
+                                                                        <discountPercent>20</discountPercent>
+                                                                        <isLimitedQuantity>true</isLimitedQuantity>
+                                                                        <minimumPurchaseQuantity>3</minimumPurchaseQuantity>
+                                                                        <maximumPurchaseQuantity>5</maximumPurchaseQuantity>
+                                                                        <expiresAt>2011-02-24 12:41:34</expiresAt>
+                                                                        <details>
+
+                                                                                <detail>
+                                                                                        <description>best offers gift to lovers day at coimbatore.... hurry up</description>
+                                                                                </detail>
+                                                                        </details>
+                                                                        <highlights>best offers gift to lovers day at coimbatore.... hurry up</highlights>
+                                                                        <fineprints>best offers gift to lovers day at coimbatore.... hurry up</fineprints>
+                                                                        <redemptionLocations>
+
+                                                                                <redemptionLocation>
+                                                                                        <lng>56</lng>
+                                                                                        <city>Chennai</city>
+                                                                                        <name>K.R.Bake</name>
+                                                                                        <streetAddress>vadavalli
+coimbatore</streetAddress>
+                                                                                        <lat>34</lat>
+
+                                                                                </redemptionLocation>
+                                                                        </redemptionLocations>
+                                                                        <buyUrl>http://192.168.1.20:1001/purchase.html?cid=44</buyUrl>
+                                                                </option>
+                                                        </options>
+                                                        <startAt>2011-02-13 11:41:34</startAt>
+                                                        <endAt>2011-02-24 12:41:34</endAt>
+
+                                                </deal>
+                                                <deal>
+                                                        <id>sample-deal-post</id>
+                                                        <title>Sample deal post</title>
+                                                        <city>
+                                                                <name>Chennai</name>
+                                                        </city>
+
+                                                        <imgurl>http://192.168.1.20:1001/themes/green/images/no_image.jpg</imgurl>
+                                                        <sidebarImageUrl>http://192.168.1.20:1001/</sidebarImageUrl>
+                                                        <status>open</status>
+                                                        <isSoldOut>false</isSoldOut>
+                                                        <soldQuantity></soldQuantity>
+                                                        <dealUrl>http://192.168.1.20:1001/deals/sample-deal-post_28.html</dealUrl>
+
+                                                        <options>
+                                                                <option>
+                                                                        <id>28</id>
+                                                                        <title>Sample deal post</title>
+                                                                        <price>
+                                                                                <amount>99</amount>
+                                                                                <currencyCode>USD</currencyCode>
+
+                                                                                <formattedAmount>$99</formattedAmount>
+                                                                        </price>
+                                                                        <value>
+                                                                                <amount>100</amount>
+                                                                                <currencyCode>USD</currencyCode>
+                                                                                <formattedAmount>$100</formattedAmount>
+                                                                        </value>
+
+                                                                        <discount>
+                                                                                <amount>1</amount>
+                                                                                <currencyCode>USD</currencyCode>
+                                                                                <formattedAmount>$</formattedAmount>
+                                                                        </discount>
+                                                                        <discountPercent>1</discountPercent>
+                                                                        <isLimitedQuantity>true</isLimitedQuantity>
+
+                                                                        <minimumPurchaseQuantity>1</minimumPurchaseQuantity>
+                                                                        <maximumPurchaseQuantity>4</maximumPurchaseQuantity>
+                                                                        <expiresAt>2011-02-24 23:05:06</expiresAt>
+                                                                        <details>
+                                                                                <detail>
+                                                                                        <description>The wide, well-groomed lanes of Adrenaline Adventures' tubing hill offer rubber-donut wranglers a long, smooth ride down from the snowy summit. With today's deal, patrons pressed for time can pack a plethora of heart-pumping slope-slips into a two-hour snow session during sunny weekend mornings, dog-day afternoons, or any other time the hill is open. Creatures of the night and hard-working life-insurance salesmen can opt for a four-hour evening pass, cloaking activities under a cover of darkness and over less crowded slopes. Helmets protect riders' vulnerable noggins from bruises, yeti bites, and other common tubing injuries, and, after each descent, an energy-saving rope tow pulls lackadaisical loop-sitters up the hill for another ride.</description>
+                                                                                </detail>
+
+                                                                        </details>
+                                                                        <highlights>Scientists agree that lower limbs should be permanently tucked away in a snow tube's central cavity to prevent spontaneous </highlights>
+                                                                        <fineprints>Scientists agree that lower limbs should be permanently tucked away in a snow tube's central cavity to prevent spontaneous </fineprints>
+                                                                        <redemptionLocations>
+                                                                                <redemptionLocation>
+                                                                                        <lng>15.456987</lng>
+                                                                                        <city>Chennai</city>
+
+                                                                                        <name>Domino&#039;s Pizza Corner</name>
+                                                                                        <streetAddress>T.Nagar, Chennai, Tamilnadu.</streetAddress>
+                                                                                        <lat>10.456987</lat>
+                                                                                </redemptionLocation>
+                                                                        </redemptionLocations>
+                                                                        <buyUrl>http://192.168.1.20:1001/purchase.html?cid=28</buyUrl>
+
+                                                                </option>
+                                                        </options>
+                                                        <startAt>2011-02-02 22:05:06</startAt>
+                                                        <endAt>2011-02-24 23:05:06</endAt>
+                                                </deal>
+                                                <deal>
+                                                        <id>sa-sample-coupon</id>
+
+                                                        <title>sa sample coupon</title>
+                                                        <city>
+                                                                <name>Chennai</name>
+                                                        </city>
+                                                        <imgurl>http://192.168.1.20:1001/themes/green/images/no_image.jpg</imgurl>
+                                                        <sidebarImageUrl>http://192.168.1.20:1001/</sidebarImageUrl>
+                                                        <status>open</status>
+
+                                                        <isSoldOut>false</isSoldOut>
+                                                        <soldQuantity></soldQuantity>
+                                                        <dealUrl>http://192.168.1.20:1001/deals/sa-sample-coupon_27.html</dealUrl>
+                                                        <options>
+                                                                <option>
+                                                                        <id>27</id>
+                                                                        <title>sa sample coupon</title>
+
+                                                                        <price>
+                                                                                <amount>47.5</amount>
+                                                                                <currencyCode>USD</currencyCode>
+                                                                                <formattedAmount>$47.5</formattedAmount>
+                                                                        </price>
+                                                                        <value>
+                                                                                <amount>50</amount>
+
+                                                                                <currencyCode>USD</currencyCode>
+                                                                                <formattedAmount>$50</formattedAmount>
+                                                                        </value>
+                                                                        <discount>
+                                                                                <amount>2.5</amount>
+                                                                                <currencyCode>USD</currencyCode>
+                                                                                <formattedAmount>$</formattedAmount>
+
+                                                                        </discount>
+                                                                        <discountPercent>5</discountPercent>
+                                                                        <isLimitedQuantity>true</isLimitedQuantity>
+                                                                        <minimumPurchaseQuantity>1</minimumPurchaseQuantity>
+                                                                        <maximumPurchaseQuantity>5</maximumPurchaseQuantity>
+                                                                        <expiresAt>2011-02-25 20:23:36</expiresAt>
+
+                                                                        <details>
+                                                                                <detail>
+                                                                                        <description>Why do we use it?<br />
+<br />
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).<br />
+<br />
+Why do we use it?<br />
+<br />
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</description>
+                                                                                </detail>
+
+                                                                        </details>
+                                                                        <highlights>asdasdasdas</highlights>
+                                                                        <fineprints>dasds</fineprints>
+                                                                        <redemptionLocations>
+                                                                                <redemptionLocation>
+                                                                                        <lng>15.456987</lng>
+                                                                                        <city>Chennai</city>
+
+                                                                                        <name>Domino&#039;s Pizza Corner</name>
+                                                                                        <streetAddress>T.Nagar, Chennai, Tamilnadu.</streetAddress>
+                                                                                        <lat>10.456987</lat>
+                                                                                </redemptionLocation>
+                                                                        </redemptionLocations>
+                                                                        <buyUrl>http://192.168.1.20:1001/purchase.html?cid=27</buyUrl>
+
+                                                                </option>
+                                                        </options>
+                                                        <startAt>2011-01-29 20:23:36</startAt>
+                                                        <endAt>2011-02-25 20:23:36</endAt>
+                                                </deal></deals></response>

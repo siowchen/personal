@@ -1,0 +1,2 @@
+NDOT Management Software may be disributed only under The GNU General Public License (GPL) (refer http://www.ndot.in/)
+

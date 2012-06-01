@@ -1,0 +1,89 @@
+/* CSS Document */
+@CHARSET "UTF-8";
+/******* GENERAL RESET *******/
+
+.clear{
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	display: block;
+}
+/******* GENERAL RESET *******/
+/******* MENU *******/
+#menu_container{
+	float:left;
+}
+#menu_container ul{
+	list-style: none;
+	list-style-position: outside;
+}
+#menu_container ul.tab_menu li{
+	float: left;
+	margin-right: 5px;
+	margin-bottom: -1px;
+}
+#menu_container ul.tab_menu li{
+	font-weight: 700;
+	display: block;
+	padding: 5px 10px 5px 10px;
+	background: #efefef;
+	margin-bottom: -1px;
+	border: 1px solid #d0ccc9;
+	border-width: 1px 1px 1px 1px;
+	position: relative;
+	color: #898989;
+	cursor: pointer;
+}
+#menu_container ul.tab_menu li.active{
+	background: #fff;
+	top: 1px;
+	border-bottom: 0;
+	color: #5f95ef;
+}
+/******* /MENU *******/
+/******* CONTENT *******/
+.menu_content{
+	margin: 0pt auto;
+	background: #efefef;
+	background: #fff;
+	border: 1px solid #d0ccc9;
+	text-align: left;
+	padding: 10px;
+	padding-bottom: 20px;
+	font-size: 11px;
+	width:700px;
+	float:left;
+}
+
+
+/******* NEWS *******/
+.menu_content.doc h1{
+	background: transparent url(images/news.jpg) no-repeat scroll left top;
+}
+.menu_content.doc{
+	display: block;
+}
+/******* /NEWS *******/
+/******* TUTORIALS *******/
+.menu_content.tutorials{
+	display: none;
+}
+/******* /TUTORIALS *******/
+/******* LINKS *******/
+.menu_content.links{
+	display: none;
+}
+/******* DOCUMENTS *******/
+.menu_content.doc{
+	display: none;
+}
+/******* GENERAL *******/
+.menu_content.news{
+	display: none;
+}
+
+.menu_content.request_failed{
+	display: none;
+}.menu_content.all{
+	display: none;
+}

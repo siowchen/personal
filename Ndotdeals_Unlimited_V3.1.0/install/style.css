@@ -1,0 +1,55 @@
+body{margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; }
+ 
+.instal_outer{ width:960px; margin:0px auto; overflow:hidden;}
+.instal_logo{ width:210px; margin:10px 0px 20px 0px; background:url(images/ndot_installogo.png);  overflow:hidden; height:120px; }
+.instal_inner{ width:954px; margin:0px auto; overflow:hidden; border:1px solid #DCDCDC; padding:2px; padding-bottom:20px;}
+.instal_inner h1{   margin:0px auto; padding:0px 0px 5px 10px; overflow:hidden; font-family:Tahoma; font-weight: normal; background:#DCDCDC; font-size:28px;  }
+.instal_inner p{  margin:0px auto;margin-bottom:20px; padding: 20px 10px 10px 10px; line-height:20px;   overflow:hidden; font-family:Tahoma; font-weight: normal;   font-size:14px;  }
+.mauto{ margin:0px !important;   text-align:center; border-top:#DCDCDC 1px solid;  overflow:hidden; padding:15px !important; font-size:17px!important;margin-bottom: 0px!important;}
+
+.instal_inner .table1{border:1px solid #DCDCDC; background:#EDEDED;   padding:15px;margin-top:10px;padding-bottom:5px;}
+.instal_inner .table1 td{  color:#AB1212; font-size:13px; font-weight:bold;background:#EDEDED; padding:15px; padding-bottom:5px; }
+.ins_next{  float:left; margin:20px 0px 20px 0px;}
+.ins_next input{ height:28px; width:82px;float:left; border:solid #7A7A7A; background:url(images/install_next.jpg); border:0px; cursor:pointer; }
+.instal_footer{ color:#2F2F2F; font-size:13px; text-align:right; margin-top:10px;	}
+.instal_inner form{ padding:0px; margin:0px;}
+
+.instal_inner .table2{  background:#fff;   margin-top:20px;  }
+.instal_inner .table2 td{  color:#000; font-size:13px; font-weight:bold;  padding: 5px; } 
+.instal_inner .step2tex{    border-top:1px solid #7A7A7A; background:#E8E8E8; border-right:1px solid #7A7A7A; width:196px;}
+input.reset{ width:82px; height:28px;  background:url(images/instal_reset.gif); margin-left:20px;border:none;}
+input.next { width:82px; height:28px;  background:url(images/install_next.jpg);border:none;}
+.ins_stept{ border-bottom:1px solid #ccc;}
+
+.font12{font-size:12px;line-height:16px;}
+.font14{font-size:14px;line-height:20px;}
+.fontb{font-weight:bold;}
+.colorccc{color:#ccc;}
+.color999{color:#999;}
+.colorblue{color:#1A4680;}
+.pb0{padding-bottom:10px;}
+.pge6{background:#E6E6E6;}
+.p5{padding:5px;}
+.pb5{margin-bottom:5px;}
+.install_footer { margin:10px 0px 10px 0px; text-align:right;color:#333; }
+.install_footer a { text-decoration:none; color:#333;}
+.install_footer a:hover { text-decoration:underline;}
+
+body { width: 43em; margin: 0 auto; font-family: sans-serif; font-size: 90%; }
+#tests table { border-collapse: collapse; width: 100%; }
+#tests table th,
+#tests table td { padding: 0.2em 0.4em;  vertical-align: top; }
+#tests table th { width: 12em; font-weight: normal; font-size: 1.2em; }
+#tests table tr:nth-child(odd) { background: #eee; }
+#tests table td.pass { color: #003300; }
+#tests table td.fail { color: #911; }
+#tests #results { color: #fff; }
+#tests #results p { padding: 0.2em 0.4em; }
+#tests #results p.pass { background: #003300; }
+#tests #results p.fail { background: #911; }
+.style1 {font-size: 14px;font-weight: bold;}
+.install_footer { margin-bottom:10px; text-align:right;color:#333; }
+.install_footer a { text-decoration:none; color:#333;}
+.install_footer a:hover { text-decoration:underline;}
+.width400 { width:400px;}
+

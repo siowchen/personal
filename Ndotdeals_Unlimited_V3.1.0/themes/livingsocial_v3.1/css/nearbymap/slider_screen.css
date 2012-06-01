@@ -1,0 +1,190 @@
+/*slider css start */
+.slider_middle{float:left;margin-top:10px;width:300px;margin:5px 0px 0px 10px;}
+.slider_middle h2{float:left;width:476px;clear:both;font:bold 18px Tahoma;color:#000;}
+
+.coupon_value {font:bold 12px arial;width:80px;float:left;text-align:center;}
+.coupon_value p {float:left;clear:both;width:80px!important;font:bold 13px Georgia!important;color:#353535!important;}
+.coupon_discount_value p {float:left;clear:both;width:85px!important;font:bold 13px Georgia!important;color:#353535!important;}
+.coupon_save_value p {float:left;clear:both;width:85px!important;font:bold 13px Georgia!important;color:#353535!important;}
+.coupon_discount_value {font:bold 12px arial;width:85px;float:left;text-align:center;}
+.coupon_save_value {font:bold 12px arial;width:85px;float:left;text-align:center;}
+.coupon_main_value {width:300px;float:left;clear:both;color:#000;}
+.coupon_content {float:left;clear:both;width:300px;padding:7px 0px;margin-left:4px;border-bottom:1px solid #B6B6B6;}
+.coupon_value_val{float:left;width:85px;}
+.coupon_value_val p{float:left;clear:both;width:85px;text-align:center;font:bold 18px Georgia;color:#4f4302;}
+.coupon_discount_val{float:left;width:85px;}
+.coupon_discount_val p{float:left;clear:both;width:85px;text-align:center;font:bold 18px Georgia;color:#4f4302;}
+.coupon_save_val{float:left;width:85px;}
+.coupon_save_val p{float:left;clear:both;width:85px;text-align:center;font:bold 18px Georgia;color:#4f4302;}
+
+.slider_content{float:left;clear:both;width:752px;height:235px; background:url(../images/nearbymap/s-cnt.png) repeat-x; border-left:5px solid #151515;
+ border-right:5px solid #151515;}
+
+.slider_dealimage{float:left;width:120px; height:150px;padding:10px;}
+.calender_main_left{float:left;width:450px;}    
+.view_purchase{float:left;width:180px;}
+.view_purchase a {float:left;width:170px;font:bold 14px Georgia !important;color:#fff !important; margin:8px 0px 0px 10px;background:url(../images/time_bg.png) no-repeat;padding:5px 0px;text-align:center;}  
+			
+/* image replacement */
+.graphic, #prevBtn, #nextBtn, #slider1prev, #slider1next{
+    margin:0;
+    padding:0;
+    display:block;
+    overflow:hidden;
+    text-indent:-8000px;
+
+    }
+/* // image replacement */
+.prevBtn, .nextBtn, .slider1prev, .slider1next{
+    margin:0;
+    padding:0;
+    display:block;
+    overflow:hidden ;
+    text-indent:-8000px;
+    }		
+#slider_container{float:left;clear:both;width:703px;z-index:3;position:absolute;height:233px; margin:0px 0px 0px 24px;}
+#slider{float:left;clear:both;width:706px;z-index:-1;position:absolute;margin-top:30px;*margin-top:0px;height:233px;overflow:hidden;}
+#slider ul, #slider li,
+#slider2 ul, #slider2 li{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+#slider2{margin-top:1em;}
+#slider ul li, #slider2 li{ 
+	/* 
+		define width and height of list item (slide)
+		entire slider area will adjust according to the parameters provided here
+	*/ 
+	width:696px !important;
+	position:relative;
+	height:190px;
+	overflow:hidden; 
+	}	
+#prevBtn, #nextBtn,
+#slider1next, #slider1prev{ 
+	display:block;
+	width:30px;
+	height:77px;
+	position:absolute;
+	left:-30px;
+	top:71px;
+	z-index:1000;
+	
+	}	
+#nextBtn, #slider1next{ 
+	left:696px;
+	}
+.prevBtn, .nextBtn,
+#slider1next, #slider1prev{ 
+	display:block;
+	width:30px;
+	height:77px;
+	position:absolute;
+	left:-30px;
+	top:71px;
+	z-index:1000;
+	}	
+.nextBtn, .slider1next{ 
+	left:696px;
+	}	
+															
+#prevBtn a, #nextBtn a,
+#slider1next a, #slider1prev a{  
+	display:block;
+	position:relative;
+	width:30px;
+	height:77px;
+	background:url(../images/nearbymap/left.pnp) no-repeat 0 0;	
+	}	
+#nextBtn a, #slider1next a{ 
+	background:url(../images/nearbymap/right.png) no-repeat 0 0;	
+	}	
+.prevBtn a, .nextBtn a,
+#slider1next a, #slider1prev a{  
+	display:block;
+	position:relative;
+	width:30px;
+	height:77px;
+	background:url(../images/nearbymap/left.png) no-repeat 0 0;	
+	}	
+.nextBtn a, .slider1next a{ 
+	background:url(../images/nearbymap/right.png) no-repeat 0 0;	
+	}		
+/* numeric controls */	
+
+ol#controls{
+	margin:1em 0;
+	padding:0;
+	height:28px;	
+	}
+ol#controls li{
+	margin:0 10px 0 0; 
+	padding:0;
+	float:left;
+	list-style:none;
+	height:28px;
+	line-height:28px;
+	}
+ol#controls li a{
+	float:left;
+	height:28px;
+	line-height:28px;
+	border:1px solid #ccc;
+	background:#DAF3F8;
+	color:#555;
+	padding:0 10px;
+	text-decoration:none;
+	}
+ol#controls li.current a{
+	background:#5DC9E1;
+	color:#fff;
+	}
+ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus{outline:none;}
+	
+/* // Easy Slider */
+
+
+
+.box{float:left;clear:both;width:762px;z-index:3;position:absolute;margin:15px 0px 0px 90px;*margin:12px 0px 0px -520px;}
+.box_top{float:left;clear:both;width:762px;height:12px;background:url(../images/nearbymap/box_top.png) no-repeat;}
+.box_middle{float:left;clear:both;width:762px;/*background:url(../images/nearbymap/box_middle.png) repeat-y;*/}
+.box_bottom{float:left;clear:both;width:762px;height:12px;background:url(../images/nearbymap/box_bottom.png) no-repeat;}
+
+
+
+
+#slider ul, #slider li{ 
+			margin:0;
+			padding:0;
+			list-style:none;
+			}	
+		#slider, #slider li{ 
+			height:220px;
+			width:696px;
+			overflow:hidden;
+			}	
+		#slider{ 
+			margin-left:5px;
+			}	
+		#prevBtn, #nextBtn{ 
+			display:block;
+			width:30px;
+			height:77px;
+			position:absolute;
+			left:-22px;
+			top:85px;
+			}	
+		#nextBtn{ 
+			left:701px;
+			}														
+		#prevBtn a, #nextBtn a{  
+			display:block;
+			width:30px;
+			height:77px;
+			background:url(../images/nearbymap/left.png) no-repeat 0 0;	
+			}	
+		#nextBtn a{ 
+			background:url(../images/nearbymap/right.png) no-repeat 0 0;	
+			}								
+.gmap_close{color:#000;/* width:17px;*/ font:bold 25px arial; float:right; padding:0 3px;}

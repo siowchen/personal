@@ -1,0 +1,80 @@
+* {
+  margin: 0; }
+
+.form_step {
+  width: 470px; }
+
+.step_one {
+  margin-bottom: 20px; }
+  .step_one .button_container {
+    display: none; }
+
+.js_enabled .step_one, .js_enabled .step_two, .js_enabled .step_three {
+  top: 170px;
+  position: absolute;
+  margin-left: -240px;
+  opacity: 0; }
+  .js_enabled .step_two{
+  width:450px; height:350px;
+  }
+.js_enabled .step_one {
+  left: 50%;
+  opacity: 1; }
+  .js_enabled .step_one .button_container {
+    display: block; }
+  .step_two {display:none;}
+  .disply_block{display:block!important;}
+.page_content {
+ /* box-shadow: 2px 2px 2px #999999;
+  -moz-box-shadow: 2px 2px 2px #999999;
+  -webkit-box-shadow: 2px 2px 2px #999999;*/ }
+
+.city_name {
+  margin: -93px 0 0 516px; }
+.form_selection{
+	width:440px;
+   	margin:0 auto;
+}
+.conf_top{float:left;width:416px;background:url(../images/conf_top.gif) no-repeat;height:17px;clear:both;margin-top:50px;}
+.conf_bot{float:left;width:416px;background:url(../images/conf_bot.gif) no-repeat;height:17px;clear:both;}
+.form_inner{width:386px;padding:2px 15px;
+	float:left;clear:both;
+	
+	/*-moz-border-radius-bottomright: 8px;
+   	-moz-border-radius-bottomleft: 8px;
+   	-moz-border-radius-topright: 8px;
+   	-moz-border-radius-topleft: 8px;
+   	-webkit-border-radius: 8px;*/
+
+
+   	background:url(../images/form_inner_img.gif) repeat-y;
+}
+.header_three_steps h1{width:440px;font:bold 25px Tahoma;letter-spacing:-1px;text-align:center;background:url(../images/circle1.gif) left top no-repeat;height:40px;padding:20px 0px;margin:0px;color:#333;}
+.header_three_steps h2{width:440px;font:bold 25px Tahoma;letter-spacing:-1px;text-align:center;background:url(../images/circle2.gif) left top no-repeat;height:40px;padding:20px 0px;margin:0px;}
+.form_list{width:200px;margin:0 auto;}
+.form_list select{width:250px;height:30px;padding:5px;border:1px solid #999999;outline:none !important;} 
+.form_list input[type=text]{width:240px;height:20px;padding:5px;border:1px solid #999999;outline:none !important;} 
+.form_list select option label{font:normal 12px arial;color:#333;outline:none !important;}
+.form_bottom{width:370px;margin-top:20px;float:right;}
+.continue{ float:left; width:120px;height:37px;background:url(../images/cont_but_img.gif) no-repeat;clear:both;padding:7px 0 0 15px;/*-moz-border-radius-bottomright:20px;-moz-border-radius-bottomleft:20px;-moz-border-radius-topright:20px;-webkit-border-radius:20px;-moz-border-radius-topleft:20px;*/font:bold 18px Arial;color:#fff;border:none;float:right;}
+.see_deal{width:174px;height:40px;background:url(../images/see_today_deal.jpg) no-repeat;;clear:both;/*-moz-border-radius-bottomright:20px;-moz-border-radius-bottomleft:20px;-moz-border-radius-topright:20px;-webkit-border-radius:20px;-moz-border-radius-topleft:20px;*/font:bold 18px Arial;color:#fff;border:none;float:right;}
+.link_bottom{width:200px;float:right;clear:both;margin-top:5px;padding:5px 0px;}
+.link_bottom ul{width:195px;margin:0px;padding:0px;float:right;clear:both;}
+.link_bottom ul li{float:right;list-style:none;padding:0px 2px;font:normal 12px arial;color:#000;}
+.link_bottom ul li a{text-decoration:none;font:normal 12px arial;color:#000;}
+.link_bottom ul li a:hover{text-decoration:underline;}
+.content_left{display:none;}
+.content_right{display:none;}
+.city_li{display:none;}
+.form_selection{min-height:500px;}
+.buttons{float:right!important;}
+body{overflow-x:hidden;}
+.header_left{width:100%;float:left;clear:both;}
+.header_left a{width:415px!important;}
+.step_logo{float:right;}
+.continer_outer{display:none;}
+.footer_outer{display:none;}
+.js_enabled{background:url(../images/groupon_bg_img1.gif) no-repeat !important;}
+.header1{float:left;width:100%;}
+
+.header_outer{display:none;}

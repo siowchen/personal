@@ -1,0 +1,94 @@
+/* reset.css */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:Arial; }
+a{ outline:none;}
+a img { outline:none;}
+article, aside, dialog, figure, footer, header, hgroup, nav, section {display:block;}
+ table {border-collapse:separate;border-spacing:0;}
+caption, th, td { }
+table, td, th { }
+blockquote:before, blockquote:after, q:before, q:after {content:"";}
+blockquote, q {quotes:"" "";}
+a img {border:none; outline:none;}
+ a{ text-decoration:none;}
+ a:hover{ text-decoration:underline;}
+ a span:hover{ text-decoration:underline;cursor:pointer;}
+body{ font-family:Arial, Helvetica, sans-serif; font-size:100%;}
+ul,li{ margin:0px; padding:0px; overflow:hidden; list-style:none;}
+input[type=button],input[type=submit] ,input[type=reset]{cursor:pointer; border:none;}
+input[type=text]{border:none;}
+
+.container{ border-top:3px solid #7fc200;}
+.header{clear:both;}
+.logo{margin:10px 0 0 10px;}
+.sel_city{color:#000;font:bold 100% arial;margin:32px 0 0 30px;}
+.menu{border-bottom:5px solid #f6a700;clear:both;padding-top:10px;}
+.menu li{margin:0px 0 0 5px;float:left;}
+.menu li a{padding:5px;color:#ca7c01;font:bold 100% arial;line-height:20px;}
+.menu li a:hover{background:#f6a700;color:#fff;text-decoration:none;}
+.menu_active{background:#f6a700;color:#fff;text-decoration:none;}
+.content{ clear:both;background:#83c201;padding-bottom:10px;}
+.content1{ clear:both;width:95%;background:#fff;padding-bottom:10px;}
+.content1 a{color:#CC3300;padding:3px 5px;}
+.deal_left{}
+.deal_img{padding:10px 0 0 10px;}
+.deal_img img{border:1px solid #486e01;}
+.deal_right{padding:10px 10px 0 0;}
+.deal_info{text-align:left;display:block;}
+.deal_name{font:bold 18px arial;color:#fff;padding-left:10px;}
+.deal_details{display:block; padding:10px 0;}
+.deal_details p{font:bold 100% arial;color:#000;padding-left:10px;line-height:18px;display:block;}
+.home_buy{clear:both; padding:5px 10px;background:#fff;border:1px solid #999;color:#333;margin:10px 0 0 10px;font:bold 100% arial;}
+.deals_detail_info{clear:both;padding:10px 0;margin:20px 0;}
+.highlights{left:0.3%; position:absolute;}
+.highlights h1{padding:0px 0 0 10px;font:bold 100% arial;}
+.highlights p{ font:normal 100% arial;padding-left:10px;}
+.fineprints{ right:0.3%;position:absolute;}
+.fineprints h1{padding:0px 0 0 10px;font:bold 100% arial;}
+.fineprints p{ font:normal 100% arial;padding-left:10px;}
+.deal_contact{ clear:both;padding-bottom:10px;}
+.deal_contact p{ font:bold 100% arial;padding-left:10px;display:block;}
+.fwn{ font-weight:normal!important;}
+.footer{clear:both;border-top:5px solid #f6a700;background:#83c201;}
+.footer p{text-align:right;padding-right:10px;font:normal 100% arial;line-height:25px;}
+.deal_addr{width:40%; }
+.deal_map{padding-right:10px;}
+.pl-10{padding-left:10px;}
+.mt10{margin-top:10px;}
+.header ul{padding-top:10px;}
+.header ul li{line-height:20px;margin:0px 5px;float:left;}
+.header ul li a{color:#333;font-weight:bold;}
+.today_content{display:block;clear:both;padding-top:5px;border-bottom:1px dashed #83c201;padding-bottom:5px;}
+.today_image{padding-left:10px;}
+.today_post{clear:both;}
+.today_post h1 a{color:#83c201;font-weight:bold;}
+.today_rgt{padding-right:10px;}
+.today_right{clear:both;padding-top:5px;}
+.today_right a{ color:#f6a700;font-weight:bold;}
+.today_past{}
+.discount_val1{}
+.value{text-align:center;padding:5px 2px;}
+.Discount{text-align:center;padding:5px 2px;}
+.Save{text-align:center;padding:5px 2px;}
+.fb{font-weight:bold;}
+.forms label{ width:90%; font-weight:bold;}
+.forms td{padding:2px 10px;}
+.forms input[type=text],.forms input[type=password]{width:90%!important;height:18px;padding:3px;border:1px solid #ccc}
+.forms textarea{width:90%;height:50px;padding:3px;border:1px solid #ccc}
+.forms input[type=submit],.forms input[type=reset]{border:1px solid #33CC33;background:#83c201;color:#000;font:bold 100% arial;}
+.page_tit{padding:10px;font:bold 100% arial;width:90%;}
+.for_pwd{color:#333;}
+.errorvalid{color:#CC0000;font-weight:normal!important;clear:both;display:block; }
+.my_coupon td{padding:3px;}
+.my_coupon td a{color:#CC3300!important;}
+.payment_table td{padding:3px 5px;}
+.payment_table input[type=text]{border:1px solid #ccc;}
+#pay_form_2{padding-left:10px;clear:both;}
+.pay_type{padding-left:10px;}
+.color_ora{color:#CC3300!important;}
+.pay{width:95%;}
+#credit_table input[type=text]{border:1px solid #ccc;}
+#c_pay{border:1px solid #33CC33;background:#83c201;color:#000;font:bold 100% arial;}
+
+
+
+.work_bottom{clear:both;}

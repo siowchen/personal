@@ -1,0 +1,249 @@
+/**
+ * This <div> element is wrapped by jCarousel around the list
+ * and has the classname "jcarousel-container".
+ */
+.jcarousel-container {
+    position: relative;
+}
+.jcarousel-clip {
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+.jcarousel-list {
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+.jcarousel-list li,
+.jcarousel-item {
+    float: left;
+    list-style: none;
+    /* We set the width/height explicitly. No width/height causes infinite loops. */
+    width: 75px;
+    height: 75px;
+font:normal 12px Arial, Helvetica, sans-serif;
+}
+.jcarousel-list li,
+.jcarousel-item p{padding:0px 0px;}
+
+/**
+ * The buttons are added dynamically by jCarousel before
+ * the <ul> list (inside the <div> described above) and
+ * have the classnames "jcarousel-next" and "jcarousel-prev".
+ */
+.jcarousel-next {
+    z-index: 3;
+    display: none;
+}
+
+.jcarousel-prev {
+    z-index: 3;
+    display: none;
+}
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+    width: 277px;
+    height: 291px;
+    padding: 0;
+	
+}
+
+
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+    width:  277px;
+    height: 291px;
+}
+
+.jcarousel-skin-tango .jcarousel-item {
+    width: 277px;
+    height: 95px;
+}
+
+.jcarousel-skin-tango .jcarousel-item-horizontal {
+    margin-bottom: 0px;
+}
+
+.jcarousel-skin-tango .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+/**
+ *  Vertical Buttons
+ */
+.jcarousel-skin-tango .jcarousel-next-horizontal {
+    position: absolute;
+    bottom: 8px;
+    left: 142px;
+    width:22px;
+    height: 21px;
+    cursor: pointer;
+    background: transparent url(../images/next-vertical.png) no-repeat 0 0;
+
+}
+
+
+.jcarousel-skin-tango .jcarousel-next-horizontal:hover {
+    background-position: 0 0px;
+}
+
+.jcarousel-skin-tango .jcarousel-next-horizontal:active {
+    background-position: 0 0px;
+}
+
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+    cursor: default;
+    background-position: 0 0px;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+    position: absolute;
+    top:262px;
+    left: 112px;
+    width: 22px;
+    height: 21px;
+    cursor: pointer;
+    background: transparent url(../images/prev-vertical.png) no-repeat 0 0;
+
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal:hover {
+    background-position: 0 0px;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+    background-position: 0 0px;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+    cursor: default;
+    background-position: 0 0px;
+}
+body {
+	font-family:arial;	
+}
+
+img {
+	border:0;
+}
+
+#slideshow-main {
+	width:429px; 
+	float:left; 
+	margin-right:3px;
+}
+
+#slideshow-main ul {
+	margin:0; 
+	padding:0; 
+	width:429px;
+}
+
+#slideshow-main li {
+	width:429px; 
+	height:290px; 
+	display:none;
+	position:relative;
+}
+
+#slideshow-main li.active {
+	display:block !important;
+}
+
+#slideshow-main li span.opacity {
+	position:absolute;
+	bottom:0; left:0;
+	display:block; 
+	width:100%;
+	height:60px;
+	z-index:500;
+}
+
+#slideshow-main li span.content {
+	position:absolute;
+	bottom:0; left:0;
+	display:block; 
+	width:100%;
+	height:60px;
+	z-index:1000;
+}
+
+#slideshow-main li span.content h1 {
+	font-size:14px;
+	margin:5px 0;
+	padding:0 10px;;
+	color:#42e2e8;
+}
+
+#slideshow-main li span.content p {
+	font-size:11px;
+	margin:5px 0;
+	padding:0 10px;;
+	color:#42e2e8;
+}
+
+#slideshow-carousel {
+	float:left; 
+	width:277px;
+	position:relative;
+	height:283px;
+	
+}
+
+#slideshow-carousel ul {
+	margin:0; 
+	padding:0;
+	list-style:none;
+	float:left;
+	width:277px;
+}
+
+#slideshow-carousel li {
+	background:#fff; 
+	height:252px; 
+	position:relative;
+}
+#slideshow-carousel li .arrow {
+	left:3px; 
+	top:28px; 
+	position:absolute; 
+	width:20px; 
+	height:40px; 
+	background:url(images/arrow_white.png) no-repeat 0 0; 
+	display:block;
+}
+
+#slideshow-carousel li a {
+	display:block; 
+	width:277px; 
+	height:252px;
+}
+
+
+#slideshow-carousel .active {
+ float:left;
+ clear:both;
+ width:277px!important;
+
+}
+
+#slideshow-carousel .faded {
+
+
+}
+
+.jcarousel-item jcarousel-item-horizontal p{padding:10px; font:normal 7px Arial, Helvetica, sans-serif;}
+.pad10{padding:5px 10px !important;}
+#slideshow-carousel img{width:277px!important;height:176px!important;}
+#slideshow-carousel li{margin:0!important;}
+
+
