@@ -1,0 +1,31 @@
+﻿TODO
+
+Minimum set of documents
+
+Repository: Where to store??
+
+T&C templates
+
+Terms - We dont profess to be lawyers
+
+Check before submission
+
+Agency: can manage and review form
+Agency: Check module.
+Agency: Who to send it to, tracking? Look at paypal
+Agency: track payment to agent?
+Agency: hierarchy
+Agency: commission? overwrite case by case
+Agency: Auto reminders:
+Agency: Invoice to client or lawyer?
+
+Performance: 
+Ability for agent to upload and customize their own types of forms
+
+
+
+MLS / INTRANET??
+- AGENCY PORTAL LOGIN VIA CEA NUMBER
+- LOGIN TO ERA'S PROP TOOLS
+- BY DISTRICT AREA
+- MULTIPLATFORM

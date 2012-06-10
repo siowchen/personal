@@ -1,0 +1,9 @@
+div {
+	font-family: Arial;
+}
+
+.clsCMOn, .clsCMOver {
+	font-size: 13px;
+    padding: 3px 6px;
+	color: #baa76e;
+}
